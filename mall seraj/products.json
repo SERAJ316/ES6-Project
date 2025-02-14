@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" Tornado 5-burner Stove",
+        "price": 1000,
+        "image": "./image/boto1.jfif"
+    },
+    {
+        "id": 2,
+        "name":" sharp 5-burner Stove",
+        "price": 1200,
+        "image": "./image/boto3.jfif"
+    },
+    {
+        "id": 3,
+        "name":" sharp 3-burner Stove",
+        "price": 800,
+        "image": "./image/boto2.jfif"
+    },
+    {
+        "id": 4,
+        "name":"Microwave",
+        "price": 200,
+        "image": "./image/microw2.jfif"
+    },
+    {
+        "id": 5,
+        "name":" Microwave",
+        "price": 300,
+        "image": "./image/microw4.jfif"
+    },
+    {
+        "id": 6,
+        "name":"Microwave",
+        "price": 400,
+        "image": "./image/microw.jfif"
+    },
+    {
+        "id": 7,
+        "name":" Fridge",
+        "price": 2000,
+        "image": "./image/TALAGA2.jfif"
+    },
+    {
+        "id": 8,
+        "name":" Fridge",
+        "price": 2400,
+        "image": "/image/TALAGA3.jfif"
+    }
+
+]

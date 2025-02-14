@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="loginStyle.css">  </head>
+<body>
+    <div class="container">
+        <div class="login">
+            <div class="login__content">
+                <img class="login__img" src="image/seraj.png" alt="Login image" />
+                <form class="login__form" id="registerForm">
+                    <div>
+                        <h1 class="login__title">
+                            <span>Create</span> Account
+                        </h1>
+                    </div>
+
+                    <div class="login__inputs">
+                        <div>
+                            <label for="username" class="login__label">Username</label>
+                            <input class="login__input" type="text" id="username" placeholder="Enter your username" required />
+                        </div>
+                        <div>
+                            <label for="email" class="login__label">Email</label>
+                            <input class="login__input" type="email" id="email" placeholder="Enter your email address" required />
+                        </div>
+
+                        <div>
+                            <label for="password" class="login__label">Password</label>
+                            <div class="login__box">
+                                <input class="login__input" type="password" id="password" placeholder="Enter your password" required />
+                                <i class="ri-eye-off-line login__eye" id="input-icon"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="confirmPassword" class="login__label">Confirm Password</label>
+                            <div class="login__box">
+                                <input class="login__input" type="password" id="confirmPassword" placeholder="Confirm your password" required />
+                                <i class="ri-eye-off-line login__eye" id="input-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="login__buttons">
+                            <button class="login__button" type="submit">Register</button>
+                        </div>
+                        <p class="login__description">Already have an account? <a href="index.html" class="login__forgot">Login here</a></p>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="registerScript.js"></script> </body>
+</html>
